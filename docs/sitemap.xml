@@ -3,20 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://andrewmjordan.github.io/about/</loc>
+    <loc>https://andrewmjordan.github.io/hugo-demo/about/</loc>
     <lastmod>2021-02-04T12:01:59-08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://andrewmjordan.github.io/categories/</loc>
+    <loc>https://andrewmjordan.github.io/hugo-demo/categories/</loc>
   </url>
   
   <url>
-    <loc>http://andrewmjordan.github.io/tags/</loc>
+    <loc>https://andrewmjordan.github.io/hugo-demo/tags/</loc>
   </url>
   
   <url>
-    <loc>http://andrewmjordan.github.io/</loc>
+    <loc>https://andrewmjordan.github.io/hugo-demo/</loc>
   </url>
   
 </urlset>
