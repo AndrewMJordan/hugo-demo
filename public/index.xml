@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>the website title shown on the tab</title>
+    <link>http://andrewmjordan.github.io/</link>
+    <description>Recent content on the website title shown on the tab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Yuanyuan GE 2020</copyright><atom:link href="http://andrewmjordan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://andrewmjordan.github.io/about/</link>
+      <pubDate>Thu, 04 Feb 2021 12:01:59 -0800</pubDate>
+      
+      <guid>http://andrewmjordan.github.io/about/</guid>
+      <description>I Love Markdown This is a page
+file \( \vec{a} = \vec{b} \) file
+Let \( \vec{d} \in \mathbb{S} ^ N \) where \( N \in \mathbb{Z} ^ + \)
+\[\int_{a}^{b} x^2 dx\]
+other</description>
+    </item>
+    
+  </channel>
+</rss>
