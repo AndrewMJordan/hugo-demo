@@ -1,4 +1,4 @@
-baseURL = "http://andrewmjordan.github.io/"
+baseURL = "https://andrewmjordan.github.io/hugo-demo/"
 languageCode = "en-us"
 title = "the website title shown on the tab"
 theme = "hugo-theme-casper"
