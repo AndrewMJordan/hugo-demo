@@ -5,7 +5,7 @@ theme = "hugo-theme-casper"
 paginate = 2
 Copyright = "© Yuanyuan GE 2020"
 canonifyurls = true
-publichsDir = "docs"
+publishDir = "docs"
 
 [params]
 description = "Enter your personal description"
