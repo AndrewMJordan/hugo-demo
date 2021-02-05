@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>the website title shown on the tab</title>
+    <title>Andrew Jordan</title>
     <link>https://andrewmjordan.github.io/hugo-demo/</link>
-    <description>Recent content on the website title shown on the tab</description>
+    <description>Recent content on Andrew Jordan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© Yuanyuan GE 2020</copyright><atom:link href="https://andrewmjordan.github.io/hugo-demo/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© AndrewMJordan 2020</copyright><atom:link href="https://andrewmjordan.github.io/hugo-demo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://andrewmjordan.github.io/hugo-demo/about/</link>
@@ -14,9 +14,9 @@
       
       <guid>https://andrewmjordan.github.io/hugo-demo/about/</guid>
       <description>I Love Markdown This is a page
-file \( \vec{a} = \vec{b} \) file
-Let \( \vec{d} \in \mathbb{S} ^ N \) where \( N \in \mathbb{Z} ^ + \)
-\[\int_{a}^{b} x^2 dx\]
+This is inline $ \KaTeX $: $ \vec{a} = \vec{b} $
+Let $$ \vec{d} \in \mathbb{S} ^ N $$ where $$ N \in \mathbb{Z} ^ + $$
+$$\int_{a}^{b} x^2 dx$$
 other</description>
     </item>
     

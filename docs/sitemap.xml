@@ -8,15 +8,15 @@
   </url>
   
   <url>
+    <loc>https://andrewmjordan.github.io/hugo-demo/</loc>
+  </url>
+  
+  <url>
     <loc>https://andrewmjordan.github.io/hugo-demo/categories/</loc>
   </url>
   
   <url>
     <loc>https://andrewmjordan.github.io/hugo-demo/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>https://andrewmjordan.github.io/hugo-demo/</loc>
   </url>
   
 </urlset>

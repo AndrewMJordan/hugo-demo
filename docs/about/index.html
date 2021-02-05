@@ -18,8 +18,8 @@
 
 
 
-  	<meta property="og:title" content="About &middot; the website title shown on the tab" />
-  	<meta property="og:site_name" content="the website title shown on the tab" />
+  	<meta property="og:title" content="About &middot; Andrew Jordan" />
+  	<meta property="og:site_name" content="Andrew Jordan" />
   	<meta property="og:url" content="https://andrewmjordan.github.io/hugo-demo/about/" />
 
     
@@ -36,14 +36,13 @@
     
     
 
-    <title>About &middot; the website title shown on the tab</title>
+    <title>About &middot; Andrew Jordan</title>
 
     
     <meta name="description" content="I Love Markdown This is a page
-file \( \vec{a} = \vec{b} \) file
-Let \( \vec{d} \in \mathbb{S} ^ N \) where \( N \in \mathbb{Z} ^ &#43; \)
-\[\int_{a}^{b} x^2 dx\]
-o" />
+This is inline $ \KaTeX $: $ \vec{a} = \vec{b} $
+Let $$ \vec{d} \in \mathbb{S} ^ N $$ where $$ N \in \mathbb{Z} ^ &#43; $$
+$$\int_{a}" />
     
 
     <meta name="HandheldFriendly" content="True" />
@@ -61,7 +60,7 @@ o" />
 
     
       
-          <link href="https://andrewmjordan.github.io/hugo-demo/index.xml" rel="alternate" type="application/rss+xml" title="the website title shown on the tab" />
+          <link href="https://andrewmjordan.github.io/hugo-demo/index.xml" rel="alternate" type="application/rss+xml" title="Andrew Jordan" />
       
       
     
@@ -106,7 +105,7 @@ o" />
     },
     "headline": "About",
     "name": "About",
-    "wordCount":  34 ,
+    "wordCount":  38 ,
     "timeRequired": "PT1M",
     "inLanguage": {
       "@type": "Language",
@@ -227,15 +226,10 @@ o" />
 
 
 <h1 id="i-love-markdown">I Love Markdown</h1>
-
 <p>This is a page</p>
-
-<p>file <span  class="math">\( \vec{a} = \vec{b} \)</span> file</p>
-
-<p>Let <span  class="math">\( \vec{d} \in \mathbb{S} ^ N \)</span> where <span  class="math">\( N \in \mathbb{Z} ^ + \)</span></p>
-
-<p><span  class="math">\[\int_{a}^{b} x^2 dx\]</span></p>
-
+<p>This is inline $ \KaTeX $: $ \vec{a} = \vec{b} $</p>
+<p>Let $$ \vec{d} \in \mathbb{S} ^ N $$ where $$ N \in \mathbb{Z} ^ + $$</p>
+<p>$$\int_{a}^{b} x^2 dx$$</p>
 <p>other</p>
 
 
@@ -266,7 +260,7 @@ o" />
     
 <section class="share">
   <h4>Share this page</h4>
-  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=About&nbsp;-&nbsp;the%20website%20title%20shown%20on%20the%20tab&amp;url=https%3a%2f%2fandrewmjordan.github.io%2fhugo-demo%2fabout%2f"
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=About&nbsp;-&nbsp;Andrew%20Jordan&amp;url=https%3a%2f%2fandrewmjordan.github.io%2fhugo-demo%2fabout%2f"
       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
       <span class="hidden">Twitter</span>
   </a>
@@ -319,5 +313,16 @@ o" />
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
 	integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"
 	onload="renderMathInElement(document.body);"></script>
+
+<script>
+	document.addEventListener("DOMContentLoaded", function () {
+		renderMathInElement(document.body, {
+			delimiters: [
+				{ left: "$$", right: "$$", display: true },
+				{ left: "$", right: "$", display: false }
+			]
+		});
+	});
+</script>
 
 </html>
