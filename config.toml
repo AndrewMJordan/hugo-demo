@@ -1,24 +1,22 @@
 baseURL = "https://andrewmjordan.github.io/hugo-demo/"
 languageCode = "en-us"
-title = "the website title shown on the tab"
+title = "Andrew Jordan"
 theme = "hugo-theme-casper"
 paginate = 2
-Copyright = "© Yuanyuan GE 2020"
+Copyright = "© AndrewMJordan 2020"
 canonifyurls = true
 publishDir = "docs"
 
 [params]
-description = "Enter your personal description"
+description = "the artistic scientist"
 authorlocation = "authorlocation"
 cover = "images/cover.png"
 ## save the image you want to use as background picture in directory "./static/images"author = "author name"(delete this line when editing)
 logo = "images/logo.png"
 ## save the image you want to use as website logo in directory "./static/images"(delete this line when editing)
 
-githubName = "your github name"
-linkedinName = "your linkedin name"
-email = "your email"
-instagramName = "your ins name"
+githubName = "AndrewMJordan"
+email = "andrewmichaeljordan@outlook.com"
 hideHUGOSupport = false
 
 [[menu.main]]  # here are the buttons on the menu
